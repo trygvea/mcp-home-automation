@@ -53,7 +53,7 @@ ChatGPT has announced some MCP compatibility, but currently hides this behind it
 ### Gemini
 Gemini has announced some MCP compatibility, but currently there are no way of configuring your opwn MCP servers.  
 
-### Starting the MCP server
+### MCP server entrypoint
 There are many ways to start a node application, but MCP frequently uses `npx <folder>` to start the MCP server. For your info, this has been accomplished by marking the entrypoint as executable using:
 * src/index.ts:1: Tagged as an executable with `#!/usr/bin/env node`
 * package.json: Contains a `bin` entry pointing to the executable
